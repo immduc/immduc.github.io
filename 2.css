@@ -1,0 +1,178 @@
+*{
+    margin: 0;  padding: 0;
+}
+
+.name {
+    margin-top: 0;
+    padding-top: 160px;
+}
+
+p.tieude-footer {
+    font-weight: 900;
+}
+
+h6.aboutme {
+    font-weight: 900;
+    margin-top: 30px;
+}
+
+
+.khoi1 {
+    height: 550px;
+    padding-top: 100px;
+}
+
+h1 {
+    font-size: 46px;
+    font-weight: 900;
+    margin-top: 200px;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+}
+
+nav {
+    color: white;
+    height: 96px;
+    text-transform: uppercase;
+    transition: 0.4s;
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    width: 100%;
+    height: 100%
+}
+
+button.nut {
+    padding: 16px;
+    border-radius: 8px;
+    border: none;
+    background-color: #1abc9c0a;
+    color: white;
+    text-transform: uppercase;
+    font-weight: 700;
+}
+
+p.logo {
+    font-size: 30px;
+    font-weight: 700;
+    margin-bottom: 0;
+    line-height: 96px;
+    float: left;
+}
+
+header {
+    /* padding-bottom: 50px; */
+    background: url(bg.png);
+    background-position: 50%;
+    height: 750px;
+}
+
+h1.tieude1{
+    font-size: 46px;
+    font-weight: 900;
+}
+
+img.anhdaidien {
+    width: 240px;
+    border-radius: 50%;
+    border: 3px solid white;
+}
+
+.khoi2 {
+    height: 1096px;
+}
+
+p.mota5 {
+    font-size: 21px;
+    font-weight: 300;
+    width: 400px;
+    margin-left: 64px;
+}
+
+h4.tieudenho2 {
+    text-transform: uppercase;
+    font-size: 14px;
+    margin-top: 164px;
+    margin-bottom: 16px;
+    margin-left: 64px;
+}
+
+p.gicungduoc {
+    padding-top: 96px;
+    font-weight: 700;
+    color: #ecb807;
+}
+
+h2.tieude2 {
+    font-size: 48px;
+    margin-bottom: 64px;
+    font-weight: 900;
+}
+
+.bonanh {
+    width: 1140px;
+    margin: auto;
+    text-align: left;
+}
+
+.chialayer {
+    width: 50%;
+    height: 380px;
+    float: left;
+    position: relative;
+}
+
+.chialayer {
+    margin: auto;
+    text-align: left;
+}
+
+img.anh {
+    width: 100%;
+}
+
+.layer1 {
+    width: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+.layer2 {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 2;
+    color: white;
+    transition: 0.5s;
+}
+
+.chialayer:hover .layer2 {
+    background-color: #b0e2a086;
+    box-shadow: inset 0 0 0px 20px;
+}
+
+footer i {
+    width: 48px;
+    height: 48px;
+    border: 1px solid white;
+    line-height: 48px!important;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.logo{
+    cursor: pointer;
+}
+.dkm{
+    opacity: 1!important;
+    background-color: #000000;
+    box-shadow: 0 0 3px 1px #717171;
+}
